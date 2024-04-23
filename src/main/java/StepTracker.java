@@ -18,10 +18,11 @@ aD++;
  public int activeDays(){
   return aD;
  }
- public double averageSteps()
+ public double averageSteps(){
  if(tD==0)
  return 0.0;
 else
  return (double)tS/tD;
+ }
  /* to be implemented here */
 } 
