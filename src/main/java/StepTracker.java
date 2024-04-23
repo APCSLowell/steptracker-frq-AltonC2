@@ -4,7 +4,7 @@ public class StepTracker
  private int mS, tS;
  private int tD, aD;
  public StepTracker(int goal){
-minSteps = goal;
+mS = goal;
  tS = 0;
  tD = 0;
  aD = 0;
